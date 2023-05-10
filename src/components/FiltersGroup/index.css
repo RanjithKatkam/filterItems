@@ -1,0 +1,89 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+.search-input {
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  background-color: #f1f5f9;
+  width: fit-content;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+
+.search {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  padding: 5px 10px;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.heading {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-bottom: 11px;
+}
+
+.category-container {
+  list-style: none;
+}
+.ratings-container {
+  list-style: none;
+}
+
+.category-name {
+  color: #64748b;
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.rating-image {
+  width: 50%;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+}
+
+.up {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.button {
+  background-color: transparent;
+  border: 2px solid #0967d2;
+  border-radius: 5px;
+  color: #0967d2;
+  padding: 5px 10px;
+  margin-left: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+}
